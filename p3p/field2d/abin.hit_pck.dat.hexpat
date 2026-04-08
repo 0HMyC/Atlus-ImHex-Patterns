@@ -21,7 +21,7 @@ struct fldObject {
     u16 Field04 [[color("FFFF00")]];
     u16 Field06 [[color("FF0000"), comment("Appears to always be 0xE803?")]];
     u32 ProcedureIndex [[color("00FF00"), comment("Index of Flowscript procedure to call when Object is interacted with.")]];
-    u32 Field0C [[color("FFFF00")]];
+    u32 ShowOnFlag [[color("FFFF00"), comment("Shows if bitflag is enabled")]];
 };
 
 struct pckDAT {
